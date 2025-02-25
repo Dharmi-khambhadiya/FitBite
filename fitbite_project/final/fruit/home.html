@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <!-- this is 2 link for contactus icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fitbite</title>
+</head>
+<body>
+    <div class="background-container"></div>
+    <section class="menu">
+        <div class="nav" id="header">
+            <div class="logo"><h1>Fit<b>Bite</b></h1></div>
+            <ul>
+                <a href="#home"><i class='bx bxs-home'></i>Home</a>
+                <li><a class="active" href="#service">service</a></li>
+                <li><a class="active" href="#contact">Contactus</a></li>
+            </ul>
+            <div class="icon2">
+                <!-- Cart Icon -->
+                <li style="position: relative;">
+                    <a href="#"><i class='bx bxs-cart icon'></i><span class="cart-badge"></span></a>
+                </li>
+                
+                <!-- Search bar -->
+                <div class="search-container">
+                    <form action="/search" method="get">
+                        <input type="text" placeholder="Search..." name="q">
+                        <button type="submit"><i class='bx bx-search'></i></button>
+                    </form>
+                </div>
+                
+                <!-- Sign In Button -->
+                <input class="signin" type="submit" value="Sign In" name="signin">
+            </div>
+        </div>
+    </section>
+    <section class="grid">
+        <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>Fresh, Healthy, and <br>Delicious Salads</h2>
+                    <p>Get your salad fix without leaving home.<br>
+                         Choose from a variety of fresh salads made just for you!</p>
+                </div>
+                <button>Explore Our Menu</button>
+            </div> 
+            <div class="content-right">
+                <img src="images/round.jpg" alt="">
+            </div>            
+        </div>
+    </section>
+    <section class="category">
+        <div class="list-item">
+            <h3>Populer Dishes</h3>
+            <div class="card-list">
+                <div class="card">
+                    <img src="images/round.jpg" alt="">
+                    <div class="food-title">
+                         <h1>image name</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>We offer a variety of pre-made salads with fresh and nutritious ingredients.</p>
+                    </div>
+                    <div class="price">
+                        <span>$10.99</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/round.jpg" alt="">
+                    <div class="food-title">
+                         <h1>image name</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>We offer a variety of pre-made salads with fresh and nutritious ingredients.</p>
+                    </div>
+                    <div class="price">
+                        <span>$10.99</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/round.jpg" alt="">
+                    <div class="food-title">
+                         <h1>image name</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>We offer a variety of pre-made salads with fresh and nutritious ingredients.</p>
+                    </div>
+                    <div class="price">
+                        <span>$10.99</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/round.jpg" alt="">
+                    <div class="food-title">
+                         <h1>image name</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>We offer a variety of pre-made salads with fresh and nutritious ingredients.</p>
+                    </div>
+                    <div class="price">
+                        <span>$10.99</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <!-- page of service -->
+     
+    <section id="service">
+        <div class="sectionHeader">
+            <h1>Featured Categories</h1>
+        </div>
+        <div class="category-container">
+            <div class="category-card">
+            <a href="vegetables/vegetable.html"><img src="btnveg.png" alt="vegetables" width="70px"><br><h3>Vegetables</h3></a>
+              
+              <p>Fresh and healthy vegetables for your kitchen.</p>
+            </div>
+            <div class="category-card">
+                <a href="fruit/fruit.html"><img src="btnfru1.png" alt="fruits" width="70px"><br><h3>Fruits</h3></a>
+                
+              <p>Freshly picked seasonal fruits for you.</p>
+            </div>
+            <div class="category-card">
+                <a href="dry/dry.html"><img src="btndry.png" alt="dryfruits" width="110px"><br><h3>Dry Fruits</h3></a>
+                
+              <p>High-quality dry fruits for healthy snacking.</p>
+            </div>
+          </div>
+    </section>
+
+<!-- page of contactus -->
+<section class="aboutdownl" id="contact">
+            
+    <!-- <p style="font-size: 25px; padding-top: 40px;" class="fonts">Get in touch with us today!</p><br> -->
+           <p style="font-size: 50px;" class="fonts1"> Contact Us</p>
+    <div class="infol">
+        
+           <div class="email">
+            <span class="material-symbols-outlined" style="font-size: 100px;"> mail</span>
+             <p style="font-size: 35px;">Email</p> <br>
+             <p style="font-size: 20px;">movievilla@movies.com</p>
+           </div>
+           <div class="phone">
+            <span class="material-symbols-outlined" style="font-size: 100px;">call </span>
+            <p style="font-size: 35px;">Phone</p><br>
+            <p style="font-size: 20px;">+91-9191234569</p>
+            
+           </div>
+           <div class="location">
+            <span class="material-symbols-outlined" style="font-size: 100px;"> location_on</span>
+            <p style="font-size: 35px;">Office</p><br>
+            <p>123 Movie street,surat,gujarat</p>
+           </div>
+    </div>
+    <section class="getinfol">
+      <div id="followusl">
+          <p style="font-size: 35px;">Follow Us</p>
+          <div class="follow">
+          <i class="fa-brands fa-instagram " style="font-size: 30px;"></i><p style="font-size: 20px;">Intagram</p>
+          </div>
+          <div class="follow">
+          <i class="fa-brands fa-facebook"style="font-size: 30px;"></i><p style="font-size: 20px;">Facebook</p>
+          </div>
+          <div class="follow">
+          <i class="fa-brands fa-twitter"style="font-size: 30px;"></i><p style="font-size: 20px;">Twitter</p>
+          </div>
+          <div class="follow">
+          <i class="fa-brands fa-linkedin-in"style="font-size: 30px;"></i><p style="font-size: 20px;">Linkedin</p>
+          </div>
+          <div class="follow">
+          <i class="fa-brands fa-youtube"style="font-size: 30px;"></i><p style="font-size: 20px;">YouTube</p>
+         </div>
+        </div>
+     </section>
+     

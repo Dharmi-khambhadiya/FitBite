@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h2>Contact Us</h2>
+                <p>Fresh and healthy salads made with love! Nourish your body and soul with our hand-picked ingredients.</p>
+                <p>Experience the perfect blend of taste and health with every bite.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Salad Street, Food City</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f8f9fa;
+    }
+    .footer {
+        background: linear-gradient(to right, #2c3e50, #34495e);
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2);
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+    }
+    .footer-content h2 {
+        margin-bottom: 15px;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .contact-info p, .social-icons a {
+        margin: 10px 0;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .contact-info i {
+        margin-right: 8px;
+        color: #f39c12;
+    }
+    .social-icons {
+        margin-top: 15px;
+    }
+    .social-icons a {
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 26px;
+        transition: transform 0.3s ease;
+    }
+    .social-icons a:hover {
+        color: #f39c12;
+        transform: scale(1.2);
+    }
+    @media (max-width: 600px) {
+        .footer-content {
+            padding: 0 20px;
+        }
+    }
+</style>
